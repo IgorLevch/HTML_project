@@ -4,9 +4,11 @@ body{
 }
 
 .par{
+    border: 10px solid rgb(15, 27, 94);
     font-size: 16px;  
     line-height:26px;  
     color:#1F3F68;
+    
 }
 h1{
     background-color:aquamarine;
@@ -20,7 +22,7 @@ h1{
     font-size: 44px;
     text-align: center;
 }
-.lol{
+.heading{
     font-size: 36px;
     text-align: center;
 }
@@ -46,6 +48,126 @@ h1{
     color:  #FFFFFF;
     text-transform: uppercase;
 }
+
+.header{
+    border: 10px solid lightblue;
+   }
+
+   .top_info{
+    border: 5px solid #000;
+    width: 700px;;
+    height: 300px;
+    
+   }
+
+   .container{
+    border: 5px solid darkred;    
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+   }
+   .top{
+    border: 10px solid darkorange;
+    margin: 10px;
+   }
+   .upper_block{
+
+    border: 10px solid lightcyan;
+    background-color:  lightcyan;
+    text-align: center;
+
+   }
+
+   .pic{  
+    margin-left: 500px;
+   }
+   .contactsdiv{
+    background-color: lightgreen;
+    border: 10px solid lightblue;
+    margin: 10px;
+    padding: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+   }
+
+   .what-we-do{
+    border: 5px solid yellow; 
+    margin: 10px;
+    padding: 10px;   
+   }
+
+   .empty{
+    border: 2px solid green; 
+   }
+
+   .entire{
+    border: 5px solid darkgreen;
+    width: 500px;
+    height: 250px;
+   }
+
+   .lowblock{
+    border: 10px solid lightseagreen;
+    background-color:  lightseagreen;
+    text-align: center;
+   }
+
+   .footer{
+    border: 10px solid red;
+    padding: 10px;
+    background-color: lightcoral;
+    margin-top: 10px;
+   }
+
+   .footer_top{
+    border: 5px solid yellow;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+   }
+
+   .footer_text{
+    border: 10px solid darkgray;
+    width: 500px;
+    height: 250px;
+    padding:10px;
+   }
+
+   .footer_bottom{
+    border: 10px solid rgb(169, 169, 169);
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+   }
+
+   .footer_info{
+    border: 10px solid rgb(15, 27, 94);
+    padding:10px;
+   }
+
+   .thelowest{
+    border: 10px solid rgb(15, 27, 94);
+    height: 30px;
+   }
+
+   .contmiddle{
+    border: 5px solid yellow;
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+    margin-left: 700px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+   }
+
+
+
+
 
 
 
