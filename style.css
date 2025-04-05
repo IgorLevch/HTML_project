@@ -1,21 +1,29 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+
+
 body{
     font-family: sans-serif;
 }
 
 .par{
-    border: 10px solid rgb(15, 27, 94);
+  
     font-size: 16px;  
     line-height:26px;  
     color:#1F3F68;
+    width: 425px;
+   
     
 }
-h1{
-    background-color:aquamarine;
-}
+
 .hej{
     font-size: 64px;
     color: #1F3F68;
+    width: 510px;
 }
 .join{
     font-weight: 500;
@@ -25,11 +33,17 @@ h1{
 .heading{
     font-size: 36px;
     text-align: center;
+    background-color: lightblue;
+    width: 1140px;
+    margin:0 auto;
 }
 .oopl{
     font-size: 20px;
     line-height: 30px;
     color: #1F3F68;
+    display: flex;
+   justify-content: center;
+   
 }
 .input-text{
     border: 1px solid #356EAD;
@@ -50,114 +64,122 @@ h1{
 }
 
 .header{
-    border: 10px solid lightblue;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
    }
 
    .top_info{
-    border: 5px solid #000;
-    width: 700px;;
+    border: 1px solid darkolivegreen;
+    width: 510px;;
     height: 300px;
     
    }
 
    .container{
-    border: 5px solid darkred;    
     margin-left: 50px;
     margin-right: 50px;
     padding: 10px;
-   }
+    width: 1140px;
+    margin: 0 auto;
+    background-color:  lightblue;
+    }
    .top{
-    border: 10px solid darkorange;
+    border: 3px solid darkorange;
     margin: 10px;
+    background-color: lightskyblue;
    }
-   .upper_block{
-
-    border: 10px solid lightcyan;
-    background-color:  lightcyan;
-    text-align: center;
-
-   }
-
-   .pic{  
-    margin-left: 500px;
-   }
+   
    .contactsdiv{
     background-color: lightgreen;
-    border: 10px solid lightblue;
-    margin: 10px;
-    padding: 5px;
+    
+     
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    padding: 10px;;
+    display: block;
+    width: 530px;
+   }
+
+ 
+
+   .footer__top{
+    margin: 0 auto;
+  
+    background-color: lightblue;
+    
    }
 
    .what-we-do{
-    border: 5px solid yellow; 
+    border: 3px solid yellow; 
     margin: 10px;
     padding: 10px;   
+    background-color: lightcyan;
+    margin: 0 auto;
    }
 
-   .empty{
-    border: 2px solid green; 
-   }
-
-   .entire{
+    .entire{
     border: 5px solid darkgreen;
-    width: 500px;
+    width: 359px;
     height: 250px;
    }
 
-   .lowblock{
-    border: 10px solid lightseagreen;
-    background-color:  lightseagreen;
-    text-align: center;
-   }
 
    .footer{
-    border: 10px solid red;
+    border: 3px solid lightgoldenrodyellow;
     padding: 10px;
-    background-color: lightcoral;
+    background-color: lightgoldenrodyellow;
     margin-top: 10px;
    }
 
-   .footer_top{
-    border: 5px solid yellow;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 10px;
-   }
-
    .footer_text{
-    border: 10px solid darkgray;
-    width: 500px;
+    border: 3px solid darkgray;
+    width: 495px;
     height: 250px;
     padding:10px;
    }
 
    .footer_bottom{
-    border: 10px solid rgb(169, 169, 169);
     padding: 5px;
     margin-left: 50px;
     margin-right: 50px;
+   
+    margin: 0 auto;
+    background-color: lightblue;
    }
 
    .footer_info{
-    border: 10px solid rgb(15, 27, 94);
-    padding:10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    
    }
 
-   .thelowest{
-    border: 10px solid rgb(15, 27, 94);
-    height: 30px;
-   }
-
-   .contmiddle{
+    .contmiddle{
     border: 5px solid yellow;
-    padding: 10px;
-    width: 500px;
-    height: 300px;
-    margin-left: 700px;
+    display: block;
+   
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 400px;
+    background-color: lightcyan;
+
+   }
+
+   .card-box{
+    display: flex;
+    justify-content: space-between;
+   
+   }
+
+   .card{
+    height: 250px;
+    border: 3px solid lightseagreen;
+    padding: 5px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -165,7 +187,28 @@ h1{
 
    }
 
+   .footerBase{
+    display: flex;
+    justify-content: center;
+   
+   }
 
+  
+
+   .list{
+    list-style-type: none;
+   }
+.lol{
+
+    text-align: center;
+}
+  .contacts{
+    display: block;
+  }
+
+  .main{
+    display: flex;
+  }
 
 
 
