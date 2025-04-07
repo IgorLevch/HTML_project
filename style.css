@@ -20,12 +20,56 @@ body{
     
 }
 
-.hej{
+.top__heading{
     font-size: 64px;
     color: #1F3F68;
     width: 510px;
-    padding: 5px;
+    font-weight: 300;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    margin-bottom: 32px;    
 }
+.top__text{
+    width: 510px;
+}
+
+.top__button{
+    font-style: normal;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none; 
+    display: inline-block;
+    margin-top: 71px;
+}
+
+.low_button{
+    font-style: normal;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    
+    margin-right: 80px;
+    
+  }
+
+.footer_list{
+    flex-grow: 1;
+    flex-basis: 25%;
+    
+}
+
 .join{
     font-weight: 500;
     font-size: 44px;
@@ -34,10 +78,34 @@ body{
 .heading{
     font-size: 36px;
     text-align: center;
-    background-color: lightblue;
-    width: 1140px;
-    margin:0 auto;
+    font-weight:300;
+    line-height: 46px;
+    letter-spacing: 0.05em;
 }
+.heading_mini{
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+    letter-spacing: 0.05em;
+    margin-bottom: 14px;
+}
+
+.heading_mini_1{
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.card__link{
+    font-size:14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none;
+}
+
 .oopl{
     font-size: 20px;
     line-height: 30px;
@@ -68,28 +136,58 @@ body{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    padding:5px;
+    padding-top:42px;
+   }
+
+   .top__box{
+    display: flex;
+    flex-direction: column;
+    height:100%;
    }
 
    .top_info{
-    border: 1px solid darkolivegreen;
-    width: 510px;;
-    height: 300px;
-    
+    flex-grow: 1;
+    padding-top: 115px;
+    background-image: url(img/top__back.png);
+    background-repeat: no-repeat;
+    background-position: right center;
    }
+   
+   .text{
+    font-size: 16px;
+    line-height:26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68; 
+    opacity: 0.6;    
+   }
+   .text_footer{
+    color:white;
+    
+    padding-left: 42px;;
+    
+
+   }
+
+   .text__lowblock{
+    width: 75%;
+    margin: 32px auto 64px;
+    color: #222222;
+    opacity: 1;
+    text-align: center;
+   }
+
 
    .container{
     
     width: 1140px;
     margin: 0 auto;
-    background-color:  lightblue;
+   
    
     }
    .top{
-    border: 3px solid darkorange;
-   
-    background-color: lightskyblue;
-   }
+   height: 768px;
+   background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12% );
+    }
    
    .contactsdiv{
     background-color: lightgreen;
@@ -107,17 +205,16 @@ body{
  
 
    .footer__top{
-    margin: 0 auto;
-  
-    background-color: lightblue;
+    padding-bottom: 96px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
     
    }
 
-   .what-we-do{
-    border: 3px solid yellow; 
-    background-color: lightcyan;
-    margin: 0 auto;
-   
+   .what_we_do{ 
+   padding-top: 64px;
    }
 
     .entire{
@@ -128,32 +225,59 @@ body{
 
 
    .footer{
-    border: 3px solid lightgoldenrodyellow;
-    padding: 10px;
-    background-color: lightgoldenrodyellow;
+    background-color: #316099;
+    margin-top: 112px;
+   
+    padding-bottom: 64px;
+
    
    }
 
    .footer_text{
-    border: 3px solid darkgray;
     width: 495px;
-    height: 250px;
-    padding:10px;
+   }
+
+   .ft1{
+    font-size:36px;
+    font-weight: 300;
+    line-height: 46px;
+   
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+   }
+   
+   
+   .ft3{
+    font-size:14px;
+    line-height: 34px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+    padding-left: 54px;
+    margin-top: 40px;
+   
    }
 
    .footer_bottom{
-    padding: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
+      
    
-    margin: 0 auto;
-    background-color: lightblue;
+     
    }
 
    .footer_info{
-    list-style-type: none;
+    padding-top: 60px;
+    padding-left:64px;
+   
     display: flex;
     justify-content: space-between;
+    color: white;
+
+   }
+
+   .footer_info_1{
+
+    color: white;
+    text-decoration: none;
     
    }
 
@@ -174,20 +298,25 @@ body{
    .card-box{
     display: flex;
     justify-content: space-between;
-   
+    padding-top: 64px;
+    padding-bottom: 64px;
    }
 
    .card{
-    height: 250px;
+    width: 359px;
+    box-sizing: border-box;    
     border: 3px solid lightseagreen;
-    padding: 5px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-
+    padding: 44px 32px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    display: flex;
+    flex-direction: column;
    }
-
+   .card__img{
+    align-self: center;
+    margin-bottom: 51px;
+   }
    .footerBase{
     display: flex;
     justify-content: center;
@@ -199,10 +328,6 @@ body{
    .list{
     list-style-type: none;
    }
-.lol{
-
-    text-align: center;
-}
   .contacts{
     display: block;
   }
@@ -210,8 +335,48 @@ body{
   .main{
     display: flex;
   }
+
+  .lowblock{}
+
+
+  .lowblock__item{
+    position:relative;
+    flex-grow: 1;
+  }
+
+  .lowblock__parent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
   
- 
+
+  .lowblock__img{
+    width: 100%;
+  }
+  .lowblock__text{
+    font-size:32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 64px;
+    right: 64px;
+  }
+  .lowblock__text_low1{
+    width: 340px;
+    text-align: left;
+    color:#fff;
+    margin-bottom: 32px;
+    padding-top: 42px;
+    padding-left: 42px;;
+  }
+
+  .lowblock__item_margin{
+    margin-right: 32px;
+  }
+
 
 
 
